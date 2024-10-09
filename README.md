@@ -64,7 +64,8 @@ This project was written in R. The following libraries are used in this project:
     ```
 ## Repository Structure
 - `data/` : Contains the processed pedestrian crash data (note: original data should be accessed via MassDOT).
-- `rmd/` :  R Markdown files used for exploratory data analysis and model development.
+- `scripts/` :  R Markdown files used for exploratory data analysis and model development.
+- `results/` A corresponding poster summarizing the project.
 
 ## References
 1. Yannis, George, et al. "Vulnerable Road Users: Cross-Cultural Perspectives on Performance and Attitudes." ScienceDirect, 2020.
