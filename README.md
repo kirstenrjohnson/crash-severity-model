@@ -9,9 +9,15 @@ This project applies multiple regression methods to analyze pedestrian crash dat
 - **Modeling:** Use regression analysis to evaluate which variables significantly impact crash severity.
 
 ## Data
-- **Source:** Massachusetts Department of Transportation (MassDOT) IMPACT crash portal (2017-2019 data).
-- **Variables:** Crash data includes injury severity, ambient lighting, pavement conditions, driver behavior, and traffic control features.
-  
+The data used in this project is **Massachusetts pedestrian crash data** from 2017-2019. It includes fields such as:
+- Crash number (`crash_numb`)
+- Maximum injury severity (`max_injr_svrty_cl`)
+- Driver contributing circumstance (`drvr_cntrb_circ_cl`)
+- Road surface conditions (`road_surf_cond_descr`)
+- Road contributing circumstances (`road_cntrb_descr`)
+- Traffic control devices (`traf_cntrl_devc_type_descr`)
+- Ambient lighting conditions (`ambnt_light_descr`)
+
 ## Methodology
 - **Model Type:** Ordinary Least Squares (OLS) regression was applied to model pedestrian injury severity.
 - **Hypotheses Tested:**
