@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project applies multiple regression methods to analyze pedestrian crash data in Massachusetts, focusing on predicting crash severity based on various explanatory variables such as pavement friction, ambient lighting, and driver behavior. The goal is to determine which factors are most significant in predicting crash severity and whether a categorical or ordinal classification method yields better predictive accuracy.
-<img src="results/pedestrian severity model poster.png" width="300" />
+<img src="results/pedestrian severity model poster.png" width="1000" />
 ## Objectives
 - **Categorization:** Compare different methods of categorizing crash severity.
 - **Prediction:** Identify key factors contributing to pedestrian crash severity.
